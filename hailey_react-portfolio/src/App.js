@@ -1,7 +1,7 @@
 import React from "react";
 import PageContainer from "./components/PageContainer";
-import "./styles/Background.css"
+import Footer from "./components/Footer";
 
-const App = () => <PageContainer />;
+const App = () => <><PageContainer /><Footer /></>;
 
 export default App;

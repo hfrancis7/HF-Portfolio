@@ -1,0 +1,28 @@
+  .sliding-background {
+    background: url("../images/background_scroll_2.jpg") repeat-x;
+    height: 100px;
+    width: 5076px;
+    animation: slide 60s linear infinite;
+}
+
+.scroll-container{
+    overflow: hidden;
+}
+
+.pikachu{
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    
+}
+  
+
+  @keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1692px, 0, 0); /* The image width */
+    }
+  }

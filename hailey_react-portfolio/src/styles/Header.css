@@ -1,0 +1,85 @@
+.header-container{
+    display: flex;
+    background-color: darkorchid;
+
+    /* position: absolute;
+    top: 25px;
+    right: 10px; */
+}
+
+.hailey-title{
+    display:block;
+    color: white;
+    padding: 10px;
+    background-color: plum;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 30px;
+    }
+
+/*NAVBAR-STYLING*/
+.navbar-style{
+    list-style-type: none;
+    display: flex;
+}
+.navbar-style > *{
+    color: white;
+    padding: 10px;
+}
+.navbar-style > *:hover{
+    color: cadetblue;
+}
+.navbar-style > * > *{
+    text-decoration: none;
+}
+
+.nav-link-active{
+    color: plum;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link-active:hover, .nav-link:hover{
+    color: cadetblue;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 912px) {
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+    }
+    .navbar-style{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hailey-title{
+        padding: 0px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 60px;
+    }
+    .navbar-style > *{
+        color: white;
+        padding: 0px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+.portfolio-flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio{
+  padding: 10px;
+}
+
+.flex-wrap-item{
+  flex: 1 1 600px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: white;
+  border: 3px solid darkorchid;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: darkorchid;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+.text:hover{
+  color: cadetblue;
+  font-weight: bold;
+}
+
+.github-icon{
+  width: 30px;
+}
+
+.github-icon:hover{
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 912px){
+  .portfolio{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .container{
+    width: 100%;
+  }
+}

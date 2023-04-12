@@ -1,0 +1,14 @@
+.resumeFrame{
+    width: 80%; 
+    height: 800px; 
+    border: 1px solid gray;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: center;
+}
+
+.resume{
+    padding: 10px;
+}

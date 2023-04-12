@@ -1,0 +1,16 @@
+.contactme{
+    padding: 10px;
+}
+
+.button{
+    border-radius: 5px;
+    border: 1px solid darkorchid;
+    color: white;
+    background-color: darkorchid;
+}
+
+.button:hover{
+    font-weight: bold;
+    background-color:cadetblue;
+    border-color: cadetblue;
+}

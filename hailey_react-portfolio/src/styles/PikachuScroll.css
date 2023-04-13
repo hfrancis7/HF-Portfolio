@@ -14,7 +14,6 @@
     position: absolute;
     top: 15px;
     left: 50%;
-    
 }
   
 
@@ -25,4 +24,11 @@
     100% {
       transform: translate3d(-1692px, 0, 0); /* The image width */
     }
+  }
+
+  @media screen and (max-width: 912px){
+    .pikachu{
+      top: 15px;
+      left: 72%;
+  }
   }

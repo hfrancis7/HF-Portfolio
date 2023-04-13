@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
 .header-container{
     display: flex;
     background-color: darkorchid;
@@ -13,18 +15,19 @@
 .hailey-title{
     display:block;
     color: white;
-    padding: 10px;
+    padding: 15px;
     background-color: #E55381;
     border-radius: 5px;
 
     position: absolute;
-    top: 25px;
+    top: 10px;
     left: 15px;
     font-weight: bold;
     text-align: right;
-    font-size: 30px;
+    font-size: 40px;
     filter: drop-shadow(8px 8px 10px black);
-
+    font-family: 'Sedgwick Ave Display', cursive, sans-serif;
+    text-shadow: 2px 2px darkgray;
 }
 
 /*NAVBAR-STYLING*/
@@ -95,9 +98,3 @@
         font-size: 20px;
     }
 }
-
-
-
-
-
-

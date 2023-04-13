@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers'
 import "../../styles/ContactMe.css"
+import "../../styles/Headings.css"
 
 export default function ContactMe() {
   // Create state variables for the fields in the form
@@ -51,7 +52,7 @@ export default function ContactMe() {
 
   return (
     <div class="contactme">
-    <h1>Contact Me</h1>
+    <h1 class="contact-me-header heading">Contact Me</h1>
     <p>(Currently no working backend, contact hfran7@yahoo.com or 904-404-6577 if you would like to get in touch!)</p>
       <form className="form">
         <p>Name:</p>

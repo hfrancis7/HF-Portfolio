@@ -4,7 +4,7 @@ import AboutMe from "./pages/AboutMe"
 import ContactMe from './pages/ContactMe';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import Pikachu from '../images/pikachu-run.gif'
+import Pikachu from '../images/pikachu-run.gif';
 
 import "../styles/PikachuScroll.css"
 

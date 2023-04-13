@@ -8,6 +8,10 @@
   padding: 10px;
 }
 
+.portfolio-header{
+  text-align: center;
+}
+
 .flex-wrap-item{
   flex: 1 1 600px;
 }

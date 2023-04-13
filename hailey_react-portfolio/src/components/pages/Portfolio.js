@@ -11,7 +11,7 @@ import githublogo from "../../images/github-mark-white.png"
 export default function Portfolio() {
   return (
     <div class="portfolio">
-      <h1>Portfolio</h1>
+      <h1 class="portfolio-header heading">Portfolio</h1>
 
       <div class="portfolio-flex-wrap">
 

@@ -11,7 +11,7 @@
   
   This was a great way to practice REACT, which I haven't had exposure to much prior. This web page switches between layouts by conditionally rendering components rather than routing.
   
-  I exclusively used my own CSS instead of using a CSS package such as Bootstrap or Tailwind for the sake of simplicity, especially after all of the new skills and time it took to make this project already. Bootstrap is listed as a dependency within the package.json, however, and this is because it was what originally came with the REACT app installation. In future REACT projects, I plan to try using a CSS package to see if it makes the CSS easier or more difficult during development.
+  I exclusively used my own CSS instead of using a CSS package such as Bootstrap or Tailwind for the sake of simplicity, especially after all of the new skills and time it took to make this project already. Bootstrap is listed as a dependency within the package.json, however, and this is because it was suggested to be installed for future use, along with axios and dotenv.
   
   
   ## Table of Contents

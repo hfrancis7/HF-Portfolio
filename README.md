@@ -33,7 +33,7 @@
   
   ## Deployed App
   
-  https://hfrancis7.github.io/Module20Challenge-ReactPortfolio/
+  https://hfrancis7.github.io/HF-Portfolio/
 
   ## License
   This project is covered by the following license: <br>

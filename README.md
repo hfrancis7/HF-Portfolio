@@ -1,9 +1,7 @@
-# Module 20 Challenge - REACT Portfolio
+# Hailey Francis REACT Portfolio
   ![License:MIT License](https://img.shields.io/badge/License-MIT-yellow.svg) 
 
   ## Description
-  
-  (THIS CURRENTLY EXISTS TO SHOW REFACTOR OF PORTFOLIO WITHOUT EDITING PROJECT BEFORE GRADING)
   
   I needed to make an online portfolio that showed off my skills as a web developer and help set me apart.
   

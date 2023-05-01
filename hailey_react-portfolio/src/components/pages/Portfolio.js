@@ -7,6 +7,7 @@ import WeatherDashboard from "../../images/WeatherDashboard.jpg"
 import CodingQuiz from "../../images/CodingQuiz.jpg"
 import prework from "../../images/prework.png"
 import githublogo from "../../images/github-mark-white.png"
+import plushinet from "../../images/plushinet.png"
 
 export default function Portfolio() {
   return (
@@ -14,6 +15,20 @@ export default function Portfolio() {
       <h1 class="portfolio-header heading">Portfolio</h1>
 
       <div class="portfolio-flex-wrap">
+
+        <div class="flex-wrap-item">
+          <figure class="container">
+            <img src={plushinet} alt="plushinet" class="image"></img>
+            <div class="middle">
+              <div class="text">
+                <a class="text" href="https://plushinet.herokuapp.com/" target="_blank" rel="noreferrer">PlushiNet</a>
+                <a href="https://github.com/hfrancis7/PlushiNet" target="_blank" rel="noreferrer">
+                  <img src={githublogo} alt="github logo" class="github-icon"></img>
+                </a>
+                </div> 
+            </div>
+          </figure>
+        </div>
 
         <div class="flex-wrap-item">
           <figure class="container">

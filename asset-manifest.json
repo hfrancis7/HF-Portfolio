@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HF-Portfolio/static/css/main.5f896de7.css",
-    "main.js": "/HF-Portfolio/static/js/main.3696899a.js",
+    "main.js": "/HF-Portfolio/static/js/main.f6199939.js",
     "static/media/BeatsEats.png": "/HF-Portfolio/static/media/BeatsEats.21023599d7239ae45242.png",
     "static/media/WeatherDashboard.jpg": "/HF-Portfolio/static/media/WeatherDashboard.0655b530076b25e03403.jpg",
     "static/media/recibeet.jpg": "/HF-Portfolio/static/media/recibeet.6b768f7fadbe330fe066.jpg",
@@ -9,15 +9,16 @@
     "static/media/TechBlog.jpg": "/HF-Portfolio/static/media/TechBlog.b49b5eb679874ee4f1b4.jpg",
     "static/media/prework.png": "/HF-Portfolio/static/media/prework.b7ae616d8e39773777e8.png",
     "static/media/profilePic.png": "/HF-Portfolio/static/media/profilePic.583fee857dcb7fac7fa4.png",
+    "static/media/plushinet.png": "/HF-Portfolio/static/media/plushinet.d1efc028e3f61bc0d979.png",
     "static/media/linkedin-mark.png": "/HF-Portfolio/static/media/linkedin-mark.6cd9ef1086fa8ffe47b0.png",
     "static/media/pikachu-run.gif": "/HF-Portfolio/static/media/pikachu-run.c70bb52c9351064bd1c6.gif",
     "static/media/background_scroll_2.jpg": "/HF-Portfolio/static/media/background_scroll_2.9b4b02a4b11d550b4528.jpg",
     "index.html": "/HF-Portfolio/index.html",
     "main.5f896de7.css.map": "/HF-Portfolio/static/css/main.5f896de7.css.map",
-    "main.3696899a.js.map": "/HF-Portfolio/static/js/main.3696899a.js.map"
+    "main.f6199939.js.map": "/HF-Portfolio/static/js/main.f6199939.js.map"
   },
   "entrypoints": [
     "static/css/main.5f896de7.css",
-    "static/js/main.3696899a.js"
+    "static/js/main.f6199939.js"
   ]
 }

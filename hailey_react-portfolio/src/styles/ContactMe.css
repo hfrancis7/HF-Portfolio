@@ -18,3 +18,17 @@
     background-color:#06BEE1;
     border-color: #06BEE1;
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+@media screen and (max-width: 912px){
+    .form{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+  }

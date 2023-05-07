@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers'
+import axios from 'axios';
 import "../../styles/ContactMe.css"
 import "../../styles/Headings.css"
 
@@ -32,14 +33,30 @@ export default function ContactMe() {
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !name) {
-      setErrorMessage('Email or name is invalid');
+    if (!validateEmail(email)) {
+      setErrorMessage('Please enter a valid email address.');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
+    }
+    if(!name){
+      setErrorMessage("Please enter in a name.")
     }
     if(!message){
       setErrorMessage('Please enter in a message before submitting.');
       return;
+    }
+    try{
+      axios
+      .post("https://getform.io/f/d4ffb79c-676d-4a60-bef5-55c16ac4e4c1", {
+          name: name,
+          email: email,
+          message: message,
+      }, 
+      { headers: {'Accept': 'application/json'}})
+      .then(response => console.log(response))
+      .catch(error => console.log(error))
+    }catch(err){
+      console.error(err);
     }
     alert(`Thank you, ${name}!`);
 
@@ -53,25 +70,25 @@ export default function ContactMe() {
   return (
     <div class="contactme">
     <h1 class="contact-me-header heading">Contact Me</h1>
-    <p>(Currently no working backend, contact hfran7@yahoo.com or 904-404-6577 if you would like to get in touch!)</p>
+    {/* <p>(Currently no working backend, contact hfran7@yahoo.com or 904-404-6577 if you would like to get in touch!)</p> */}
       <form className="form">
-        <p>Name:</p>
+        <label>Name: </label><br></br>
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
           placeholder=""
-        />
-        <p>Email:</p>
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder=""
-        />
-        <p>Message:</p>
+        /><br></br>
+        <label>Email: </label><br></br>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder=""
+          /><br></br>
+        <label>Message:</label><br></br>
         <textarea
           value={message}
           name="message"
@@ -80,7 +97,7 @@ export default function ContactMe() {
           rows= "10"
           placeholder=""
         ></textarea><br></br>
-        <button class="button" type="button" onClick={handleFormSubmit}>Submit</button>
+        <button class="button" type="submit" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>

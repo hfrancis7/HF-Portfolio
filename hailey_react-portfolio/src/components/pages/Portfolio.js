@@ -98,22 +98,7 @@ export default function Portfolio() {
                 </div> 
             </div>
           </figure>
-        </div>
-
-        <div class="flex-wrap-item">
-          <figure class="container">
-            <img src={prework} alt="Prework Study Guide" class="image"></img>
-            <div class="middle">
-              <div class="text">
-                <a class="text" href="https://hfrancis7.github.io/prework-study-guide/" target="_blank" rel="noreferrer">Prework Study Guide</a>
-                <a href="https://github.com/hfrancis7/prework-study-guide" target="_blank" rel="noreferrer">
-                  <img src={githublogo} alt="github logo" class="github-icon"></img>
-                </a>
-                </div> 
-            </div>
-          </figure>
-        </div>
-        
+        </div> 
       </div>
 
     </div>

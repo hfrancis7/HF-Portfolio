@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HF-Portfolio/static/css/main.3e5ea089.css",
+    "main.css": "/HF-Portfolio/static/css/main.8e88f4cd.css",
     "main.js": "/HF-Portfolio/static/js/main.5196a509.js",
     "static/media/BeatsEats.png": "/HF-Portfolio/static/media/BeatsEats.21023599d7239ae45242.png",
     "static/media/WeatherDashboard.jpg": "/HF-Portfolio/static/media/WeatherDashboard.0655b530076b25e03403.jpg",
@@ -14,11 +14,11 @@
     "static/media/pikachu-run.gif": "/HF-Portfolio/static/media/pikachu-run.c70bb52c9351064bd1c6.gif",
     "static/media/background_scroll_2.jpg": "/HF-Portfolio/static/media/background_scroll_2.9b4b02a4b11d550b4528.jpg",
     "index.html": "/HF-Portfolio/index.html",
-    "main.3e5ea089.css.map": "/HF-Portfolio/static/css/main.3e5ea089.css.map",
+    "main.8e88f4cd.css.map": "/HF-Portfolio/static/css/main.8e88f4cd.css.map",
     "main.5196a509.js.map": "/HF-Portfolio/static/js/main.5196a509.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e5ea089.css",
+    "static/css/main.8e88f4cd.css",
     "static/js/main.5196a509.js"
   ]
 }

@@ -32,11 +32,11 @@ export default function Portfolio() {
 
         <div class="flex-wrap-item">
           <figure class="container">
-            <img src={ReciBEET} alt="ReciBEET" class="image"></img>
+            <img src={BeatsEats} alt="Beats And Eats" class="image"></img>
             <div class="middle">
-              <div class="text text-success">
-                <a class="text" href="https://recibeet-2.herokuapp.com/" target="_blank" rel="noreferrer">ReciBEET</a>
-                <a href="https://github.com/torresorona/ReciBEET" target="_blank" rel="noreferrer">
+              <div class="text">
+                <a class="text" href="https://shobannah.github.io/BeatsAndEats/" target="_blank" rel="noreferrer">Beats & Eats</a>
+                <a href="https://github.com/shobannah/BeatsAndEats" target="_blank" rel="noreferrer">
                   <img src={githublogo} alt="github logo" class="github-icon"></img>
                 </a>
                 </div> 
@@ -46,11 +46,11 @@ export default function Portfolio() {
 
         <div class="flex-wrap-item">
           <figure class="container">
-            <img src={BeatsEats} alt="Beats And Eats" class="image"></img>
+            <img src={ReciBEET} alt="ReciBEET" class="image"></img>
             <div class="middle">
-              <div class="text">
-                <a class="text" href="https://shobannah.github.io/BeatsAndEats/" target="_blank" rel="noreferrer">Beats & Eats</a>
-                <a href="https://github.com/shobannah/BeatsAndEats" target="_blank" rel="noreferrer">
+              <div class="text text-success">
+                <a class="text" href="https://recibeet-2d9ca1e028d6.herokuapp.com/" target="_blank" rel="noreferrer">ReciBEET</a>
+                <a href="https://github.com/torresorona/ReciBEET" target="_blank" rel="noreferrer">
                   <img src={githublogo} alt="github logo" class="github-icon"></img>
                 </a>
                 </div> 
